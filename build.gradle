@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'fr.magic.servo'
+version '0.0.1'
+
+sourceCompatibility = 1.8
+compileJava.options.encoding("utf8")
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.code.gson:gson:2.8.9'
+}
